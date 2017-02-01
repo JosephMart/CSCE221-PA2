@@ -36,10 +36,9 @@ clean:
 # the directory 221-A2-code must exist
 tar:
 	@ /bin/rm -f *.o
-	@ if [ ! -d ../221-A2-code ]; then \
+	@ if [ ! -d ../CSCE221-PA2 ]; then \
 	echo "Error: the directory 221-A2-code does not exist"; \
 	exit 1; \
 	else \
-	cd ..; tar cvf 221-A2-code-submit.tar 221-A2-code; \
+	cd ..; tar cvf 221-A2-code-submit.tar CSCE221-PA2; \
 	fi
-
