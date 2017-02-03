@@ -19,12 +19,6 @@ void RadixSort::sort(int A[], int size)
 {
 	//LSD radix sort
 
-std::cout << "[";
-		for(int i = 0; i < size; i++) {
-std::cout << A[i] << ' ';
-		}
-std::cout << "]" << std::endl;
-
 	int numbits = sizeof(int) * CHAR_BIT;
 	int sectionSize = 8;
 
@@ -73,10 +67,4 @@ std::cout << "]" << std::endl;
 			A[i] = b[i];
 		}
 	}
-
-std::cout << "[";
-		for(int i = 0; i < size; i++) {
-std::cout << A[i] << ' ';
-		}
-std::cout << "]" << std::endl;
 }
