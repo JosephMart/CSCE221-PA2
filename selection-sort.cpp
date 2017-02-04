@@ -22,6 +22,7 @@ SelectionSort::sort(int A[], int size)				// main entry point
     int minPos = 0;
     // Used during swaping
     int temp = 0;
+    this->num_cmps = 0;
 
     for (int i = 0; i < size-1; i++)
     {
@@ -32,12 +33,14 @@ SelectionSort::sort(int A[], int size)				// main entry point
         for (int j = i + 1; j < size; j++)
         {
             // Check if a smaller value has been found
+            num_cmps++;
             if (A[j] < A[minPos])
             {
                 minPos = j;
             }
         }
 
+        this->num_cmps++;
         // Check if a smaller value to swap has been found
         if (i != minPos)
         {
