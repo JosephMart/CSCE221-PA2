@@ -1,8 +1,8 @@
 //============================================================================
 // Name        : selection-sort.cpp
 // Author      : Joseph Martinsen
-// Date        :
-// Copyright   :
+// Date        : 4 Febuary 2017
+// Copyright   : JMM 2017
 // Description : Implementation of selection sort in C++
 //============================================================================
 
@@ -24,6 +24,7 @@ SelectionSort::sort(int A[], int size)				// main entry point
     int temp = 0;
     this->num_cmps = 0;
 
+    // Begin iterating from 0th element to last element
     for (int i = 0; i < size-1; i++)
     {
         // Set current index as min
