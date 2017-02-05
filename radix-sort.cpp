@@ -30,6 +30,8 @@ void RadixSort::sort(int A[], int size)
 
 	//all bits 1, up to the section size
 	int mask = 0;
+	//mask for the negative bit (MSD)
+	int maskNeg = 1;
 	//the number of values that can be taken by a number <sectionSize> bits long
 	int possibilities = 1;
 
@@ -38,9 +40,14 @@ void RadixSort::sort(int A[], int size)
 		mask = mask << 1;
 		mask++;
 
+		//move the bit over
+		maskNeg = maskNeg << 1;
+
 		//twice the number of possibilities per bit
 		possibilities *= 2;
 	}
+	//off-by-one adjustment
+	maskNeg = maskNeg >> 1;
 
 	//this is just for testing - the bins are all equal size, don't want any bits spilling out
 	int rem = numbits % sectionSize;
@@ -61,6 +68,8 @@ void RadixSort::sort(int A[], int size)
 			c[i] = 0;
 		}
 
+		int zeros = 0;
+
 		//count up the number of items in each bin, store that in c
 		for(int i = 0; i < size; i++) {
 			int val = A[i];
@@ -69,8 +78,16 @@ void RadixSort::sort(int A[], int size)
 			//need to get rid of extra information
 			val = (val >> (section * sectionSize)) & mask;
 
+			//if this is the most significant section, flip the MSD (negative bit) so that negative numbers < positive numbers
+			if(section == sections - 1) val = val ^ maskNeg;
+
+			if(val == 0) zeros++;
+
 			c[val]++;
 		}
+
+		//all values are 0; no sorting to be done; skip
+		if(zeros == size) continue;
 
 		//c now represents the number of elements "less than or equal to i" in A
 		//to be used as position in b (then b -> A)
@@ -85,6 +102,10 @@ void RadixSort::sort(int A[], int size)
 
 			//get the index into b, then decrement c (so the next item goes to index - 1, and so on)
 			int partVal = (val >> (section * sectionSize)) & mask;
+
+			//same MSD flipping for negative values
+			if(section == sections - 1) partVal = partVal ^ maskNeg;
+
 			int index = c[partVal];
 			c[partVal]--;
 
