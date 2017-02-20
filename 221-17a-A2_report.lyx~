@@ -1961,7 +1961,11 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
+O(
+\begin_inset Formula $n^{2}$
+\end_inset
 
+)
 \end_layout
 
 \end_inset
@@ -1979,7 +1983,11 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
+O(
+\begin_inset Formula $n$
+\end_inset
 
+)
 \end_layout
 
 \end_inset
@@ -2075,7 +2083,11 @@ Radix Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-O(n)
+O(
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -2084,7 +2096,11 @@ O(n)
 \begin_inset Text
 
 \begin_layout Plain Layout
-O(n)
+O(
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -2093,7 +2109,11 @@ O(n)
 \begin_inset Text
 
 \begin_layout Plain Layout
-O(n)
+O(
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
