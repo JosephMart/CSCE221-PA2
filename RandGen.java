@@ -1,4 +1,4 @@
-
+public class RandGen {
     public static void main(String[] args) {
         Random r = new Random();
         int max = Short.MAX_VALUE;
@@ -27,3 +27,20 @@
             out(count, (int j)->{return nums[j];}, "in_" + i + "_random");
         }
     }
+    
+    private static void out(int n, Num supplier, String s) {
+        File f = new File("/input/");
+        f = new File(f, s + ".txt");
+        String[] values = new String[n + 1];
+        values[0] = Integer.toString(n);
+        for(int i = 1; i <= n; i++) {
+            values[i] =  " " + Integer.toString(supplier.get(i - 1));
+        }
+        
+        try {
+            StringFileOutput.writeFileLines(f, values);
+        } catch (IOException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, "oops: " + s, ex);
+        }
+    }
+}
