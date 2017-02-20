@@ -110,7 +110,7 @@ This project is a group project with up to three students per team.
 
 \size large
 2.
- Joseph Martinsen, josephmart@tamu.edu
+ skrub boi, lame@gmail.com
 \begin_inset Newline newline
 \end_inset
 
@@ -167,16 +167,183 @@ Wrote radix sort, generated random input, worked on lyx file, ran experiments
 \begin_inset space ~
 \end_inset
 
-Joseph Martinsen
-\begin_inset Newline newline
+
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset Newline newline
+\begin_inset space ~
 \end_inset
 
-Wrote insertion and bubble sort.
- Worked on graphs and gathering data.
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
 \size default
 
 \begin_inset VSpace 0.2in
@@ -2719,33 +2886,6 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2773,7 +2913,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+
 \end_layout
 
 \end_inset
@@ -2782,7 +2922,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+
 \end_layout
 
 \end_inset
@@ -2791,7 +2931,34 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -2814,33 +2981,6 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2868,7 +3008,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-163
+
 \end_layout
 
 \end_inset
@@ -2877,7 +3017,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-249
+
 \end_layout
 
 \end_inset
@@ -2886,7 +3026,34 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-250
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -2909,33 +3076,6 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-670
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-680
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-700
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2963,7 +3103,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-14048
+
 \end_layout
 
 \end_inset
@@ -2972,7 +3112,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-30855
+
 \end_layout
 
 \end_inset
@@ -2981,7 +3121,34 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-29082
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3004,33 +3171,6 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-66820
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-65920
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-70060
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3058,7 +3198,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-375370
+
 \end_layout
 
 \end_inset
@@ -3067,7 +3207,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-740720
+
 \end_layout
 
 \end_inset
@@ -3076,7 +3216,34 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-808390
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3258,7 +3425,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-0
+
 \end_layout
 
 \end_inset
@@ -3267,7 +3434,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-0
+
 \end_layout
 
 \end_inset
@@ -3276,7 +3443,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-0
+
 \end_layout
 
 \end_inset
@@ -3326,7 +3493,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-0
+
 \end_layout
 
 \end_inset
@@ -3335,7 +3502,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+
 \end_layout
 
 \end_inset
@@ -3344,7 +3511,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+
 \end_layout
 
 \end_inset
@@ -3394,7 +3561,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-39
+
 \end_layout
 
 \end_inset
@@ -3403,7 +3570,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-189
+
 \end_layout
 
 \end_inset
@@ -3412,7 +3579,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-70
+
 \end_layout
 
 \end_inset
@@ -3462,7 +3629,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-639
+
 \end_layout
 
 \end_inset
@@ -3471,7 +3638,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-2776
+
 \end_layout
 
 \end_inset
@@ -3480,7 +3647,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-955
+
 \end_layout
 
 \end_inset
