@@ -9,6 +9,9 @@
 #include <iostream>
 #include "option.h"
 
+//http://www.cplusplus.com/reference/cstdlib/atoi/
+#include <cstdlib>
+
 /* initialize options according to command line */
 void Option::init(int argc, char** argv)
    throw (InvalidArgument)
@@ -31,6 +34,7 @@ void Option::init(int argc, char** argv)
             case 't': show_time   = true; break;
             case 'c': show_num_cmps = true; break;
             case 'p': show_output = true;  break;
+            case 'n': if (i+1 < argc) runTimes = atoi(argv[++i]); break; //specify number of times to run the file
             default : throw InvalidArgument();
             }
       }
@@ -65,6 +69,7 @@ void Option::printUsage() const {
       "  -d  Display input: unsorted integer sequence\n"
       "  -p  Display output: sorted integer sequence\n"
       "  -t  Display running time of the chosen algorithm in milliseconds\n"
-      "  -c  Display number of element comparisons (excluding radix sort)\n";
+      "  -c  Display number of element comparisons (excluding radix sort)\n"
+      "  -n TIMES        Set the number of times to run the sorter\n";
 }
 

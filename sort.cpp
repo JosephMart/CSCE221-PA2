@@ -24,6 +24,7 @@
  *       -p              Display output: sorted integer sequence 
  *       -t              Display running time of the chosen algorithm in milliseconds 
  *       -c              Display number of element comparisons (excluding radix sort)
+ *       -n              Specify the number of times to run the sorter
  */
 //============================================================================
 
@@ -68,6 +69,7 @@ bool Sort::testIfSorted(int A[], int size)
 
 int main(int argc, char** argv)
 {
+
    Option op;
    bool radixsortQ = false;
    
@@ -98,27 +100,16 @@ int main(int argc, char** argv)
    }
    
    /* If provided output file, reopen standard output onto that file
-      so that we only need to deal with standard output. */
+      so that we only need to deal with standard output. */  
    if ((output_file=op.getOutputFile()) &&
        freopen(output_file, "w", stdout) == 0) {
       cerr << "sort: " << output_file << ": No such file" << endl;
       return 1; //exit abnormally
-   }  
+   }
   
    /* read number of integers */
    int size; //number of integers  
    if (!(cin >> size)) return 1; //exit abnormally
-    
-   /* read input integers */
-   int* A=new int[size]; //stores integers  
-   if (readInput(A,size)) //call global function
-      return 1; //exit abnormally
-
-   /* show unsorted input sequence */
-   if (op.showInput()) {
-      cout << "Unsorted sequence:" << endl;
-      printArray(A,size); //call global function to display the array
-   }
   
    /* create an sorting object with appropriate algorithm */
    Sort* s;
@@ -141,42 +132,93 @@ int main(int argc, char** argv)
          radixsortQ = true;
          break;
       }
-  
-   /* begin timing the chosen algorithm using time.h library*/
-   clock_t start = clock();
+
+   int* A=new int[size]; //stores integers
+   int* B = new int[size];
+
+   /* read input integers */
+   if (readInput(A,size)) //call global function
+      return 1; //exit abnormally
+
+   ////begin running
+
+   clock_t min = -1;
+   clock_t max = 0;
+   clock_t total = 0;
+
+   int numRunTimes = op.getRunTimes();
+
+   for(int loopNumber = 0; loopNumber < numRunTimes; loopNumber++) {
+
+      s->resetNumCmps();
+
+      for(int index = 0; index < size; index++) {
+         B[index] = A[index]; //copy unsorted array
+      }
+
+      /* show unsorted input sequence */
+      if (op.showInput()) {
+         cout << "Unsorted sequence:" << endl;
+         printArray(B,size); //call global function to display the array
+      }
+
+      /* begin timing the chosen algorithm using time.h library*/
+      clock_t start = clock();
    
-   /* call sorting function to sort */
-   s->sort(A,size);  
-   
-   /* end timing */
-   clock_t finish = clock();
-   
-   /* output sorted sequence */
-   if (op.showOutput()) {
-      cout << "Sorted sequence:" << endl;
-      printArray(A,size); //call global function to display the array
+      /* call sorting function to sort */
+      s->sort(B,size);  
+      
+      /* end timing */
+      clock_t finish = clock();
+
+      //timing stuff
+      clock_t delta = finish - start;
+      if(min < 0 || delta < min) min = delta;
+      if(delta > max) max = delta;
+      total += delta;
+      
+      /* output sorted sequence */
+      if (op.showOutput()) {
+         cout << "Sorted sequence:" << endl;
+         printArray(B,size); //call global function to display the array
+      }
+
+      /* show number of comparisons in the algorithm */
+      if (op.showNumCmps()) {
+         if (radixsortQ) {
+            cout << "No comparisons for radix sort"
+                 << endl;
+         } else {
+            cout << "# Comparisons: "
+                 << s->getNumCmps() << endl;
+         }
+      }
+
+      if (!s->testIfSorted(B, size)) {
+         cerr << "Warning: The sorted sequence IS NOT sorted!\n"
+              << endl;
+      }
+
    }
+
+   ////end running
    
    /* show running time of the algorithm to sort input data */
-   if (op.showTime())
+   if (op.showTime()) {
       cout << "Running time: "
-           << (double)(finish-start)*1000/CLOCKS_PER_SEC
+           << (double)(total)*1000/CLOCKS_PER_SEC
            << " ms" << endl;
-
-   /* show number of comparisons in the algorithm */
-   if (op.showNumCmps()) {
-      if (radixsortQ) {
-         cout << "No comparisons for radix sort"
-              << endl;
-      } else {
-         cout << "# Comparisons: "
-              << s->getNumCmps() << endl;
+      if(numRunTimes > 1) {
+         cout << "Minimum time: "
+              << (double)(min)*1000/CLOCKS_PER_SEC
+              << " ms" << endl;
+         cout << "Maximum time: "
+              << (double)(max)*1000/CLOCKS_PER_SEC
+              << " ms" << endl;
+         cout << "Average time: "
+              << (((double)(total))/numRunTimes)*1000/CLOCKS_PER_SEC
+              << " ms" << endl;
       }
-   }
-
-   if (!s->testIfSorted(A, size)) {
-      cerr << "Warning: The sorted sequence IS NOT sorted!\n"
-           << endl;
    }
 
    // it may be useful for Windows

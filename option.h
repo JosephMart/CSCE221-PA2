@@ -17,7 +17,7 @@ public:
    struct InvalidArgument:public std::invalid_argument {
       InvalidArgument():std::invalid_argument(
            "Usage: ./sort [-a ALGORITHM] [-f INPUTFILE] [-o OUTPUTFILE] "
-           "[-h] [-d] [-t] [-c]\n"
+           "[-h] [-d] [-t] [-c] [-n TIMES]\n"
            "Try `./sort -h' for more information.") {}
    };
   
@@ -33,10 +33,12 @@ private:
                              /// element comparisons
    bool        show_output;  /// Whether to display sorted input sequence
 
+   int runTimes;             /// number of times to run the algorithm
+
 public:  
    Option() : alg(0), input_file(NULL), output_file(NULL),
               show_help(false), show_input(false), show_time(false),
-              show_num_cmps(false), show_output(false) {}
+              show_num_cmps(false), show_output(false), runTimes(1) {}
   
    /* initialize options according to command line */
    void init(int argc, char** argv)
@@ -53,6 +55,8 @@ public:
    bool showTime() const { return show_time; }
    bool showNumCmps() const { return show_num_cmps; }
    bool showOutput() const { return show_output; }
+
+   int getRunTimes() const { return runTimes; }
   
    /* print help message */
    void printUsage() const;
