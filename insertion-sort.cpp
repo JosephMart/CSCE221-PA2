@@ -15,16 +15,18 @@ InsertionSort::sort(int A[], int size)				// main entry point
   Record number of comparisons in variable num_cmps of class Sort
   */
 
-  for (int i = 1; i<size; i++)
-  {
-
-	int tmp = A[i];
-	int j = i;
-	for (; j>0 && tmp < A[j-1]; j--){
-	    A[j] = A[j-1];
-		num_cmps++;
+  int sizea = size;
+  for (int i = 0; i < sizea - 1; i++) {
+  	int min = i;
+	for (int j = i+1; j < sizea; j++) {
+		if (A[min] > A[j]) {
+			min = j;
+		}
 	}
-	num_cmps++;
-	A[j] = tmp;
-  }
+	if (min != i) {
+		int temp = A[i];
+		A[i] = A[min];
+		A[min] = temp;
+	}
+ 	}
 }
