@@ -1,4 +1,18 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+
 public class RandGen {
+    
+    private static interface Num {
+        int get(int i);
+    }
+
     public static void main(String[] args) {
         Random r = new Random();
         int max = Short.MAX_VALUE;
@@ -29,7 +43,7 @@ public class RandGen {
     }
     
     private static void out(int n, Num supplier, String s) {
-        File f = new File("/input/");
+        File f = new File("./input/");
         f = new File(f, s + ".txt");
         String[] values = new String[n + 1];
         values[0] = Integer.toString(n);
@@ -38,9 +52,17 @@ public class RandGen {
         }
         
         try {
-            StringFileOutput.writeFileLines(f, values);
+            writeFileLines(f, values);
         } catch (IOException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, "oops: " + s, ex);
+            Logger.getLogger(RandGen.class.getName()).log(Level.SEVERE, "oops: " + s, ex);
         }
+    }
+    
+    public static void writeFileLines(File file, String[] lines) throws IOException {
+        BufferedWriter out = new BufferedWriter(new FileWriter(file, false));
+        for(String s : lines) {
+            out.write(s);
+        }
+        out.close();
     }
 }
