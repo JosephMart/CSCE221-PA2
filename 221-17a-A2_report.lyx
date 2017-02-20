@@ -4464,6 +4464,27 @@ Discussion.
  from class or textbook? Justify your answer.
  Also compare radix sort's running time with the running time of four comparison
 -based algorithms.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Radix is only comparable to shell; all of the other algorithms are extremely
+ slow, except the best case of insertion sort.
+ Being linear, radix scales very well.
+ However, it has no 
+\begin_inset Quotes eld
+\end_inset
+
+best
+\begin_inset Quotes erd
+\end_inset
+
+ outcome; it always performs around its average, because there are no shortcuts
+ (eg.
+ if data is already sorted, like insertion sort).
 \end_layout
 
 \begin_layout Enumerate
@@ -4477,6 +4498,20 @@ Conclusions.
  case? Do the experimental results agree with the theoretical analysis you
  learned from class or textbook? What factors can affect your experimental
  results?
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Long story short: shell and radix sort are the best.
+ Also: never use bubble or selection.
+ Insertion is tolerable if input is very close to sorted.
+ Shell does not perform as well when inputs are small, but overall it trumps
+ the other comparison-based sorting algorithms.
+ Except when compared to insertion's best case or shell's best case, radix
+ is the best by far.
 \end_layout
 
 \end_deeper
