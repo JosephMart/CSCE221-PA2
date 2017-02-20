@@ -147,6 +147,9 @@ int main(int argc, char** argv)
    clock_t total = 0;
 
    int numRunTimes = op.getRunTimes();
+   if(numRunTimes != 1) {
+      cout << "Running " << numRunTimes << " times" << endl;
+   }
 
    for(int loopNumber = 0; loopNumber < numRunTimes; loopNumber++) {
 
