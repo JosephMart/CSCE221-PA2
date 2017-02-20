@@ -6,9 +6,7 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-
-
- 
+\usepackage{tikz, pgfplots}
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -110,7 +108,7 @@ This project is a group project with up to three students per team.
 
 \size large
 2.
- skrub boi, lame@gmail.com
+ Joseph Martinsen, josephmart@tamu.edu
 \begin_inset Newline newline
 \end_inset
 
@@ -167,183 +165,16 @@ Wrote radix sort, generated random input, worked on lyx file, ran experiments
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset space ~
+Joseph Martinsen
+\begin_inset Newline newline
 \end_inset
 
 
-\begin_inset space ~
+\begin_inset Newline newline
 \end_inset
 
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
+Wrote insertion and bubble sort.
+ Worked on graphs and gathering data.
 \size default
 
 \begin_inset VSpace 0.2in
@@ -2886,7 +2717,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -2895,7 +2726,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -2904,7 +2735,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -2940,7 +2771,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -2949,7 +2780,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -2958,7 +2789,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -2981,7 +2812,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -2990,7 +2821,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -2999,7 +2830,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3035,7 +2866,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+163
 \end_layout
 
 \end_inset
@@ -3044,7 +2875,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+249
 \end_layout
 
 \end_inset
@@ -3053,7 +2884,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+250
 \end_layout
 
 \end_inset
@@ -3076,7 +2907,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+670
 \end_layout
 
 \end_inset
@@ -3085,7 +2916,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+680
 \end_layout
 
 \end_inset
@@ -3094,7 +2925,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+700
 \end_layout
 
 \end_inset
@@ -3130,7 +2961,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14048
 \end_layout
 
 \end_inset
@@ -3139,7 +2970,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30855
 \end_layout
 
 \end_inset
@@ -3148,7 +2979,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+29082
 \end_layout
 
 \end_inset
@@ -3171,7 +3002,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+66820
 \end_layout
 
 \end_inset
@@ -3180,7 +3011,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+65920
 \end_layout
 
 \end_inset
@@ -3189,7 +3020,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+70060
 \end_layout
 
 \end_inset
@@ -3225,7 +3056,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+375370
 \end_layout
 
 \end_inset
@@ -3234,7 +3065,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+740720
 \end_layout
 
 \end_inset
@@ -3243,7 +3074,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+808390
 \end_layout
 
 \end_inset
@@ -3425,7 +3256,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3434,7 +3265,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3443,7 +3274,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3493,7 +3324,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3502,7 +3333,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -3511,7 +3342,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16
 \end_layout
 
 \end_inset
@@ -3561,7 +3392,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+39
 \end_layout
 
 \end_inset
@@ -3570,7 +3401,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+189
 \end_layout
 
 \end_inset
@@ -3579,7 +3410,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+70
 \end_layout
 
 \end_inset
@@ -3629,7 +3460,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+639
 \end_layout
 
 \end_inset
@@ -3638,7 +3469,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2776
 \end_layout
 
 \end_inset
@@ -3647,7 +3478,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+955
 \end_layout
 
 \end_inset
@@ -4585,6 +4416,151 @@ For each of the five sort algorithms, graph the running times over the three
 ); and for each of the first four algorithms graph the numbers of comparisons
  versus the input sizes, totaling in 9 graphs.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{loglogaxis}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	title={Selection Sort Runtime},
+\end_layout
+
+\begin_layout Plain Layout
+
+	xlabel={Input Size},
+\end_layout
+
+\begin_layout Plain Layout
+
+	ylabel={Runtime (ms)},
+\end_layout
+
+\begin_layout Plain Layout
+
+	xmin=100,
+\end_layout
+
+\begin_layout Plain Layout
+
+	xmax=100000,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ymin=0,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ymax=3000,
+\end_layout
+
+\begin_layout Plain Layout
+
+	]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addplot[color=blue, mark=o] coordinates {
+\end_layout
+
+\begin_layout Plain Layout
+
+	(100, 0) (1000, 0) (10000, 670) (100000, 66820)
+\end_layout
+
+\begin_layout Plain Layout
+
+	};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addplot[color=red, mark=o] coordinates {
+\end_layout
+
+\begin_layout Plain Layout
+
+	(100, 0) (1000, 0) (10000, 680) (100000, 65920)
+\end_layout
+
+\begin_layout Plain Layout
+
+	};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addplot[color=green, mark=o] coordinates {
+\end_layout
+
+\begin_layout Plain Layout
+
+	(100, 0) (1000, 0) (10000, 700) (100000, 66820)
+\end_layout
+
+\begin_layout Plain Layout
+
+	};
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{loglogaxis}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
