@@ -119,7 +119,7 @@ This project is a group project with up to three students per team.
 
 \size large
 3.
- raider_224 kekles, deez@nuts.io
+ Nnaedoziem Aririele, edo101@tamu.edu
 \end_layout
 
 \begin_layout Standard
@@ -212,7 +212,7 @@ Wrote insertion and bubble sort.
 \begin_inset space ~
 \end_inset
 
-
+Nnaedoziem Aririele
 \begin_inset space ~
 \end_inset
 
@@ -359,8 +359,13 @@ Wrote insertion and bubble sort.
 \end_inset
 
 
-\size default
+\begin_inset Newline newline
+\end_inset
 
+wrote shell, selection, worked on lyx file
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace 0.2in
 \end_inset
 
@@ -1923,7 +1928,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2
 \end_layout
 
 \end_inset
@@ -1932,7 +1937,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -1941,7 +1946,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -1962,7 +1967,7 @@ Insertion Sort
 
 \begin_layout Plain Layout
 O(
-\begin_inset Formula $n^{2}$
+\begin_inset Formula $n$
 \end_inset
 
 )
@@ -1974,7 +1979,7 @@ O(
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -1984,10 +1989,10 @@ O(
 
 \begin_layout Plain Layout
 O(
-\begin_inset Formula $n$
+\begin_inset Formula $n^{2})$
 \end_inset
 
-)
+
 \end_layout
 
 \end_inset
@@ -2007,7 +2012,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n)
 \end_layout
 
 \end_inset
@@ -2016,7 +2021,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -2025,7 +2030,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -2045,7 +2050,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(nlogn)
 \end_layout
 
 \end_inset
@@ -2054,7 +2059,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(nlogn)/gap space
 \end_layout
 
 \end_inset
@@ -2063,7 +2068,16 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
+O(nlog
+\begin_inset script subscript
 
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+^2n)
 \end_layout
 
 \end_inset
@@ -2282,7 +2296,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2291,7 +2305,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2300,7 +2314,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2358,7 +2372,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+best
 \end_layout
 
 \end_inset
@@ -2367,7 +2381,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2376,7 +2390,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2396,7 +2410,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+best
 \end_layout
 
 \end_inset
@@ -2405,7 +2419,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2414,7 +2428,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+average
 \end_layout
 
 \end_inset

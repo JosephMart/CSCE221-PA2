@@ -6,9 +6,7 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-
-
- 
+\usepackage{tikz, pgfplots}
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -121,7 +119,7 @@ This project is a group project with up to three students per team.
 
 \size large
 3.
- raider_224 kekles, deez@nuts.io
+ Nnaedoziem Aririele, edo101@tamu.edu
 \end_layout
 
 \begin_layout Standard
@@ -214,7 +212,7 @@ Wrote insertion and bubble sort.
 \begin_inset space ~
 \end_inset
 
-
+Nnaedoziem Aririele
 \begin_inset space ~
 \end_inset
 
@@ -361,8 +359,13 @@ Wrote insertion and bubble sort.
 \end_inset
 
 
-\size default
+\begin_inset Newline newline
+\end_inset
 
+wrote shell, selection, worked on lyx file
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace 0.2in
 \end_inset
 
@@ -1925,7 +1928,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2
 \end_layout
 
 \end_inset
@@ -1934,7 +1937,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -1943,7 +1946,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -1963,7 +1966,11 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
+O(
+\begin_inset Formula $n$
+\end_inset
 
+)
 \end_layout
 
 \end_inset
@@ -1972,7 +1979,7 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -1981,6 +1988,10 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
+O(
+\begin_inset Formula $n^{2})$
+\end_inset
+
 
 \end_layout
 
@@ -2001,7 +2012,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n)
 \end_layout
 
 \end_inset
@@ -2010,7 +2021,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -2019,7 +2030,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(n^2)
 \end_layout
 
 \end_inset
@@ -2048,7 +2059,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+O(nlogn)
 \end_layout
 
 \end_inset
@@ -2057,7 +2068,16 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
+O(nlog
+\begin_inset script subscript
 
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+^2n)
 \end_layout
 
 \end_inset
@@ -2077,7 +2097,11 @@ Radix Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-O(n)
+O(
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -2086,7 +2110,11 @@ O(n)
 \begin_inset Text
 
 \begin_layout Plain Layout
-O(n)
+O(
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -2095,7 +2123,11 @@ O(n)
 \begin_inset Text
 
 \begin_layout Plain Layout
-O(n)
+O(
+\begin_inset Formula $n$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -2264,7 +2296,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2273,7 +2305,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2282,7 +2314,7 @@ Selection Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2302,7 +2334,7 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+best
 \end_layout
 
 \end_inset
@@ -2311,7 +2343,7 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+average
 \end_layout
 
 \end_inset
@@ -2320,7 +2352,7 @@ Insertion Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2340,7 +2372,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+best
 \end_layout
 
 \end_inset
@@ -2349,7 +2381,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2358,7 +2390,7 @@ Bubble Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2378,7 +2410,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+best
 \end_layout
 
 \end_inset
@@ -2387,7 +2419,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+worst
 \end_layout
 
 \end_inset
@@ -2396,7 +2428,7 @@ Shell Sort
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+average
 \end_layout
 
 \end_inset
@@ -2746,7 +2778,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.04
 \end_layout
 
 \end_inset
@@ -2755,7 +2787,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.313
 \end_layout
 
 \end_inset
@@ -2764,7 +2796,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.336
 \end_layout
 
 \end_inset
@@ -2773,7 +2805,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2
 \end_layout
 
 \end_inset
@@ -2782,7 +2814,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -2791,7 +2823,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -2841,7 +2873,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.092
 \end_layout
 
 \end_inset
@@ -2850,7 +2882,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8.923
 \end_layout
 
 \end_inset
@@ -2859,7 +2891,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+17.032
 \end_layout
 
 \end_inset
@@ -2868,7 +2900,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+163
 \end_layout
 
 \end_inset
@@ -2877,7 +2909,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+249
 \end_layout
 
 \end_inset
@@ -2886,7 +2918,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+250
 \end_layout
 
 \end_inset
@@ -2936,7 +2968,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.408
 \end_layout
 
 \end_inset
@@ -2945,7 +2977,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+854.355
 \end_layout
 
 \end_inset
@@ -2954,7 +2986,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1628.26
 \end_layout
 
 \end_inset
@@ -2963,7 +2995,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14048
 \end_layout
 
 \end_inset
@@ -2972,7 +3004,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30855
 \end_layout
 
 \end_inset
@@ -2981,7 +3013,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+29082
 \end_layout
 
 \end_inset
@@ -3031,7 +3063,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.238
 \end_layout
 
 \end_inset
@@ -3040,7 +3072,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+84441.9
 \end_layout
 
 \end_inset
@@ -3049,7 +3081,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+165891
 \end_layout
 
 \end_inset
@@ -3058,7 +3090,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+375370
 \end_layout
 
 \end_inset
@@ -3067,7 +3099,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+740720
 \end_layout
 
 \end_inset
@@ -3076,7 +3108,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+808390
 \end_layout
 
 \end_inset
@@ -3258,7 +3290,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3267,7 +3299,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3276,7 +3308,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3326,7 +3358,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -3335,7 +3367,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10
 \end_layout
 
 \end_inset
@@ -3344,7 +3376,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16
 \end_layout
 
 \end_inset
@@ -3394,7 +3426,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+39
 \end_layout
 
 \end_inset
@@ -3403,7 +3435,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+189
 \end_layout
 
 \end_inset
@@ -3412,7 +3444,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+70
 \end_layout
 
 \end_inset
@@ -3462,7 +3494,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+639
 \end_layout
 
 \end_inset
@@ -3471,7 +3503,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2776
 \end_layout
 
 \end_inset
@@ -3480,7 +3512,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+955
 \end_layout
 
 \end_inset
@@ -3694,7 +3726,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4950
 \end_layout
 
 \end_inset
@@ -3703,7 +3735,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4950
 \end_layout
 
 \end_inset
@@ -3712,7 +3744,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4950
 \end_layout
 
 \end_inset
@@ -3721,7 +3753,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+99
 \end_layout
 
 \end_inset
@@ -3730,7 +3762,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2888
 \end_layout
 
 \end_inset
@@ -3739,7 +3771,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5049
 \end_layout
 
 \end_inset
@@ -3762,7 +3794,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+499500
 \end_layout
 
 \end_inset
@@ -3771,7 +3803,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+499500
 \end_layout
 
 \end_inset
@@ -3780,7 +3812,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+499500
 \end_layout
 
 \end_inset
@@ -3789,7 +3821,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+999
 \end_layout
 
 \end_inset
@@ -3798,7 +3830,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+256003
 \end_layout
 
 \end_inset
@@ -3807,7 +3839,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+500499
 \end_layout
 
 \end_inset
@@ -3830,7 +3862,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+49995000
 \end_layout
 
 \end_inset
@@ -3839,7 +3871,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+49995000
 \end_layout
 
 \end_inset
@@ -3848,7 +3880,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+49995000
 \end_layout
 
 \end_inset
@@ -3857,7 +3889,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+9999
 \end_layout
 
 \end_inset
@@ -3866,7 +3898,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+25832611
 \end_layout
 
 \end_inset
@@ -3875,7 +3907,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+50004999
 \end_layout
 
 \end_inset
@@ -3898,7 +3930,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4999950000
 \end_layout
 
 \end_inset
@@ -3907,7 +3939,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4999950000
 \end_layout
 
 \end_inset
@@ -3916,7 +3948,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4999950000
 \end_layout
 
 \end_inset
@@ -3925,7 +3957,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+99999
 \end_layout
 
 \end_inset
@@ -3934,7 +3966,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2596105967
 \end_layout
 
 \end_inset
@@ -3943,7 +3975,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5000049999
 \end_layout
 
 \end_inset
@@ -4157,7 +4189,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+413
 \end_layout
 
 \end_inset
@@ -4166,7 +4198,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+910
 \end_layout
 
 \end_inset
@@ -4175,7 +4207,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+649
 \end_layout
 
 \end_inset
@@ -4225,7 +4257,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+7090
 \end_layout
 
 \end_inset
@@ -4234,7 +4266,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+13512
 \end_layout
 
 \end_inset
@@ -4243,7 +4275,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10482
 \end_layout
 
 \end_inset
@@ -4293,7 +4325,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+100844
 \end_layout
 
 \end_inset
@@ -4302,7 +4334,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+205084
 \end_layout
 
 \end_inset
@@ -4311,7 +4343,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+145660
 \end_layout
 
 \end_inset
@@ -4361,7 +4393,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1308346
 \end_layout
 
 \end_inset
@@ -4370,7 +4402,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2660286
 \end_layout
 
 \end_inset
@@ -4379,7 +4411,7 @@ dec
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1859950
 \end_layout
 
 \end_inset
@@ -4418,6 +4450,10 @@ For each of the five sort algorithms, graph the running times over the three
 ); and for each of the first four algorithms graph the numbers of comparisons
  versus the input sizes, totaling in 9 graphs.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -4462,6 +4498,27 @@ Discussion.
  from class or textbook? Justify your answer.
  Also compare radix sort's running time with the running time of four comparison
 -based algorithms.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Radix is only comparable to shell; all of the other algorithms are extremely
+ slow, except the best case of insertion sort.
+ Being linear, radix scales very well.
+ However, it has no 
+\begin_inset Quotes eld
+\end_inset
+
+best
+\begin_inset Quotes erd
+\end_inset
+
+ outcome; it always performs around its average, because there are no shortcuts
+ (eg.
+ if data is already sorted, like insertion sort).
 \end_layout
 
 \begin_layout Enumerate
@@ -4475,6 +4532,20 @@ Conclusions.
  case? Do the experimental results agree with the theoretical analysis you
  learned from class or textbook? What factors can affect your experimental
  results?
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Long story short: shell and radix sort are the best.
+ Also: never use bubble or selection.
+ Insertion is tolerable if input is very close to sorted.
+ Shell does not perform as well when inputs are small, but overall it trumps
+ the other comparison-based sorting algorithms.
+ Except when compared to insertion's best case or shell's best case, radix
+ is the best by far.
 \end_layout
 
 \end_deeper
