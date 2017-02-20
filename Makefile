@@ -1,6 +1,7 @@
 # a simple makefile for compiling C++ files
 
 CC= g++ -std=c++11
+LIST=abc
 
 all: sort
 
@@ -32,6 +33,13 @@ sort.o: sort.h option.h sort.cpp
 
 clean:
 	/bin/rm -f *.o sort
+
+
+test:
+	for egfile in 1,2,3; do            \
+		echo "Installing $$egfile";     \
+    done
+
 
 # the directory 221-A2-code must exist
 tar:

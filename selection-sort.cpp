@@ -17,34 +17,15 @@ void SelectionSort::sort(int A[], int size)				// main entry point
     /* Complete this function with the implementation of selection sort algorithm
     Record number of comparisons in variable num_cmps of class Sort
     */
-    // Used for tracking index of current smallest element
-    int minPos = 0;
-    // Used during swaping
-    int temp = 0;
-
-    // Begin iterating from 0th element to last element
-    for (int i = 0; (num_cmps++, i < size-1); i++)
-    {
-        // Set current index as min
-        minPos = i;
-
-        // Iterate from i to n looking for the smallest element
-        for (int j = i + 1; (num_cmps++, j < size); j++)
-        {
-            // Check if a smaller value has been found
-            num_cmps++;
-            if (A[j] < A[minPos], num_cmps++)
-            {
-                minPos = j;
-            }
-        }
-
-        // Check if a smaller value to swap has been found
-        if (i != minPos)
-        {
-            temp = A[i];
-            A[i] = A[minPos];
-            A[minPos] = temp;
-        }
+    for (int k = 0; (num_cmps++, k < size-1); k++) {
+    	int index = k;
+		for (int i = k+1; (num_cmps++, i < size); i++) {
+			if (A[i] < A[index], num_cmps++) {
+				index = i;
+			}
+		int tmp = A[k];
+		A[k] = A[index];
+		A[index] = tmp;
+		}
     }
 }
