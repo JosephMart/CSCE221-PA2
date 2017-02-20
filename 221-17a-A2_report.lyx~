@@ -4532,7 +4532,7 @@ addplot[color=green, mark=o] coordinates {
 
 \begin_layout Plain Layout
 
-	(100, 0) (1000, 0) (10000, 700) (100000, 66820)
+	(100, 0) (1000, 0) (10000, 700) (100000, 70060)
 \end_layout
 
 \begin_layout Plain Layout
