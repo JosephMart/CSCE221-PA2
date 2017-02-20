@@ -12,8 +12,7 @@
 #include "sort.h"
 #include <iostream>
 
-void
-SelectionSort::sort(int A[], int size)				// main entry point
+void SelectionSort::sort(int A[], int size)				// main entry point
 {
     /* Complete this function with the implementation of selection sort algorithm
     Record number of comparisons in variable num_cmps of class Sort
@@ -22,26 +21,24 @@ SelectionSort::sort(int A[], int size)				// main entry point
     int minPos = 0;
     // Used during swaping
     int temp = 0;
-    this->num_cmps = 0;
 
     // Begin iterating from 0th element to last element
-    for (int i = 0; i < size-1; i++)
+    for (int i = 0; (num_cmps++, i < size-1); i++)
     {
         // Set current index as min
         minPos = i;
 
         // Iterate from i to n looking for the smallest element
-        for (int j = i + 1; j < size; j++)
+        for (int j = i + 1; (num_cmps++, j < size); j++)
         {
             // Check if a smaller value has been found
             num_cmps++;
-            if (A[j] < A[minPos])
+            if (A[j] < A[minPos], num_cmps++)
             {
                 minPos = j;
             }
         }
 
-        this->num_cmps++;
         // Check if a smaller value to swap has been found
         if (i != minPos)
         {
